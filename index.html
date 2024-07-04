@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 4</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">
+                <a href="#home">The Walking Dead</a>
+            </h1>
+            <div class="menu-hamburguer" id="menu-toggle">
+                <box-icon id="icon" color=" #eaeaea" name='menu' type='regular' size='lg'></box-icon>
+            </div>
+            <nav class="header__buttons" id="header-buttons">
+                <ul class="header__list">
+                    <li class="header__list__item">
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#sobre">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#episodios">
+                            Episódios
+                        </a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#mais">
+                            Mais+
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero__content">
+            <img class="hero__content__logo" src="./src/images/image_logo_hero.webp" alt="Band Of Brothers logo hero">
+            <ul class="hero__content__list">
+                <li class="hero__content__list__item">31</li>
+                <li class="hero__content__list__item">2010</li>
+                <li class="hero__content__list__item">1 Temporada</li>
+                <li class="hero__content__list__item">Ação</li>
+                <li class="hero__content__list__item">Terror</li>
+            </ul>
+            <p class="hero__content__text text">
+                Baseado na história em quadrinhos de Robert Kirkman, este drama retrata a vida pós-apocalíptica nos EUA.
+                Um grupo de sobreviventes, liderado pelo policial Rick Grimes, busca uma nova moradia segura longe dos
+                mortos-vivos.
+            </p>
+            <div class="container__button">
+                <a class="button" href="#">Assistir</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="sobre">
+        <div class="about__content">
+            <h2 class="title">
+                Leia o <br>
+                <span class="title--big">Resumo</span>
+            </h2>
+            <div class="about__content__grid">
+                <img src="./dist/images/imagem_the_walking_dead.jpg" alt="imagem serie band of brothers">
+                <div class="about__content__grid__text">
+                    <h3 class="title--small">Sobre a Série</h3>
+                    <p>
+                        Baseado na história em quadrinhos escrita por Robert Kirkman, este drama potente e visceral
+                        retrata a vida nos Estados Unidos pós-apocalíptico. Um grupo de sobreviventes, liderado pelo
+                        policial Rick Grimes, segue viajando em busca de uma nova moradia segura e distante dos
+                        mortos-vivos. A pressão para permanecerem vivos e lutarem pela sobrevivência faz com que muitos
+                        do grupo sejam submetidos às mais profundas formas de crueldade humana. Rick acaba descobrindo
+                        que o tão assustador desespero pela subsistência pode ser ainda mais fatal do que os próprios
+                        mortos-vivos que os rodeiam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="episodes" id="episodios">
+        <div class="episodes__title">
+            <h2 class="title">Episódios</h2>
+            <h3 class="title--small">Temporada 1</h3>
+        </div>
+        <ul class="episodes__list">
+            <li class="episodes__list__item">
+                <img src="./dist/images/walp_1.webp" alt="Adeus, passado">
+                <span class="text">1. Adeus, passado</span>
+                <p class="text--small">
+                    Rick procura por sua família em um mundo aterrorizado por zumbis. Morgan e Duane ajudam a ensinar a Rick as novas leis de sobrevivência.
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/walp_2.webp" alt="Entranhas">
+                <span class="text">2. Entranhas</span>
+                <p class="text--small">
+                    Sem se dar conta, Rick faz com que um grupo de sobreviventes seja cercado por zumbis e precisa enfrentar um inimigo muito mais perigoso do que os mortos-vivos.
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/walp_3.webp" alt="Vá falar com sapos">
+                <span class="text">3. Vá falar com sapos</span>
+                <p class="text--small">
+                    Rick volta a Atlanta para recuperar a bolsa com armas e salvar a vida de um homem. Lori e Shane lidam com a volta de alguém que eles imaginavam estar morto.
+                </p>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./dist/images/walp_5.webp" alt="Hermanos">
+                <span class="text">4. HermanosHermanos</span>
+                <p class="text--small">
+                    A missão de Ricky de chegar a Atlanta é ameaçada quando as coisas fogem de controle. Jim fica transtornado no acampamento.
+                </p>
+            </li>
+
+        </ul>
+    </section>
+    <section class="more" id="mais">
+        <h2 class="title">Mais+</h2>
+        <div class="more__container-video">
+            <iframe class="video" width="700" height="400"
+                src="https://www.youtube.com/embed/gKcKby8xrCI?si=Maqacoh5AgtHBxaj" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__icons">
+                <a href="#" target="_blank">
+                    <i data-feather="github"></i>
+                </a>
+                <a href="#">
+                    <i data-feather="mail"></i>
+                </a>
+            </div>
+            <div class="footer__text">
+                <p class="text--small">Site feito para fins educacional.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Código dos ícones -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script src="./dist/js/main.js"></script>
+</body>
+
+</html>
